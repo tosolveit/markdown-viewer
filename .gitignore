@@ -1,0 +1,37 @@
+# Ignore the markdown-viewer binary
+markdown-viewer
+
+# Ignore build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Ignore directories created by `go build` or `go test`
+/bin/
+/pkg/
+/build/
+/dist/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore IDE specific settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore dependency directory (vendor/ is optional if you're using vendoring mode)
+vendor/
+
+# Editor specific files
+*.swp
+*.swo
+*~
+
+# MacOS specific
+.DS_Store
